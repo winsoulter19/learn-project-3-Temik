@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;800&family=Press+Start+2P&display=swap')
+
+$color-text-font2P: #FFFFFF
+$color-card-font2P: #000000
+$color-text-fontMonser:#FFFFFF
+$bg-sections-color: #343434
+$color-card-modal-title-fontMonser: #000000
+$color-card-modal-text-fontMonser: #000000
+
+
+@mixin title-font2P
+    font-family: 'Press Start 2P', sans-serif
+    font-size: 32px
+    font-weight: regular
+    color: $color-text-fontMonser
+
+@mixin text-card-font2P
+    font-family: 'Press Start 2P', sans-serif
+    font-size: 20px
+    font-weight: regular
+    color: $color-card-font2P
+
+@mixin title-fontMonser
+    font-family: 'Montserrat', sans-serif
+    font-size: 36px
+    font-weight: extraBold
+    color: $color-text-fontMonser
+    
+@mixin text-fontMonser
+    font-family: 'Montserrat', sans-serif
+    font-size: 20px
+    font-weight: medium
+    color: $color-text-fontMonser
+    text-align: center
+
+@mixin card-modal-title
+    font-family: 'Montserrat', sans-serif
+    font-size: 26px
+    font-weight: extraBold
+    color: $color-card-modal-title-fontMonser
+
+@mixin card-modal-text
+    font-family: 'Montserrat', sans-serif
+    font-size: 20px
+    font-weight: medium
+    color: $color-card-modal-text-fontMonser
+
+body
+    font-family: 'Press Start 2P', sans-serif !important
+    box-sizing: border-box
+    background-color: $bg-sections-color
+.navbar-brand
+    font-family: 'Press Start 2P', sans-serif
+    font-size: 40px
+    font-weight: regular
+    color: $color-text-fontMonser
+
+.navbar-nav
+    font-family: 'Press Start 2P', sans-serif
+    color: $color-text-font2P
+    font-weight: regular
+    font-size: 20px
+
+
+.about-me-section
+    background-color: $bg-sections-color
+    margin-bottom: 220px
+    &__top-title
+        @include title-font2P
+        text-align: center
+        margin-bottom: 50px
+    &__title
+        color: $color-text-font2P
+        text-align: center
+        @include title-fontMonser
+    &__text
+        @include text-fontMonser
+
+.card-link-section
+    &__top-title
+        color: $color-text-font2P
+        text-align: center
+        @include title-font2P
+        margin-bottom: 50px
+.project-cards-section
+    &__text
+        font-family: 'Montserrat', sans-serif
+        font-size: 24px
+        font-weight: medium
+        color: $color-text-fontMonser
+.card-box
+    margin-bottom: 100px
+    &__text
+        @include text-card-font2P
+
+.modal-dialog
+    @include card-modal-text
+
+.footer-section
+    background-color: #000000
+    height: 200px
+.footer-content
+    &__text
+        @include text-fontMonser
+        padding-top: 50px
+        margin-bottom: 30px
+        text-align: center
+    &__subtext
+        @include text-fontMonser
+        text-align: center
+

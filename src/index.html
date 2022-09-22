@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;800&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="description" content="Сайт о Темике">
+    <title>Temik</title>
+</head>
+<body>
+  <!-- Навигация -->
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #000000">
+        <div class="container">
+          <a class="navbar-brand me-5" href="#">TEMIK</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-lg-0">
+              <li class="nav-item me-5">
+                <a class="nav-link" aria-current="page" href="#about-me">Обо Мне</a>
+              </li>
+              <li class="nav-item me-5">
+                <a class="nav-link" href="#link">Связь</a>
+              </li>
+              <li class="nav-item me-5">
+                <a class="nav-link" href="#project">Проекты</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Слайдер -->
+<section class="slider-section">
+  <div class="container">
+    <div class="slider-section__container mb-5 pt-5">
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./img/Slide1.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/Slide2.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/Slide3.png" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"  data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Предыдущий</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"  data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Следующий</span>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Секция Информации -->
+<section class="about-me-section">
+  <div class="container">
+      <h1 class="about-me-section__top-title" id="about-me">ОБО МНЕ</h1>
+      <div class="about-me-section__container">
+        <div class="row mb-5 me-5 ps-5">
+          <div class="col-lg-6 col-sm-12">
+            <h1 class="about-me-section__title">lorem</h1>
+            <p class="about-me-section__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate rerum temporibus ipsum natus asperiores voluptatibus mollitia, beatae vitae quibusdam omnis saepe maxime ratione minus quo, eius magnam eum nam iste.</p>
+          </div>
+          <div class="col-lg-6 col-sm-12">
+            <h1 class="about-me-section__title">lorem</h1>
+            <p class="about-me-section__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate rerum temporibus ipsum natus asperiores voluptatibus mollitia, beatae vitae quibusdam omnis saepe maxime ratione minus quo, eius magnam eum nam iste.</p>
+          </div>
+        </div>
+        <div class="row me-5 ps-5">
+          <div class="col-lg-6 col-sm-12">
+            <h1 class="about-me-section__title">lorem</h1>
+            <p class="about-me-section__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate rerum temporibus ipsum natus asperiores voluptatibus mollitia, beatae vitae quibusdam omnis saepe maxime ratione minus quo, eius magnam eum nam iste.</p>
+          </div>
+          <div class="col-lg-6 col-sm-12">
+            <h1 class="about-me-section__title">lorem</h1>
+            <p class="about-me-section__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate rerum temporibus ipsum natus asperiores voluptatibus mollitia, beatae vitae quibusdam omnis saepe maxime ratione minus quo, eius magnam eum nam iste.</p>
+          </div>
+        </div>
+      </div>
+  </div>
+</section>
+<!-- Секция Карт -->
+<section class="card-link-section" id="link">
+    <div class="container">
+        <h1 class="card-link-section__top-title">Связь</h1>
+          <div class="card-box row row-cols-1 row-cols-md-3 g-4">
+<!-- Карта ВК -->
+            <div class="col">
+              <div class="card h-100 bg-secondary border-dark">
+                <img src="./img/vk-logo-card.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">VK</h5>
+                  <p class="card-text card-box__text">Идейные соображения высшего порядка</p>
+                  <div class="d-grid gap-2">
+                    <a class="btn btn-dark btn-lg" href="https://vk.com/lplug" role="button" target="_blank">БУП</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+<!-- Карта Инсты -->
+            <div class="col">
+              <div class="card h-100 bg-secondary border-dark">
+                <img src="./img/meta-logo-card.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Instagram</h5>
+                  <p class="card-text card-box__text">Идейные соображения высшего порядка</p>
+                    <div class="d-grid gap-2">
+                      <a class="btn btn-dark btn-lg" href="https://www.instagram.com/temik186/" role="button" target="_blank">БУП</a>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 bg-secondary border-dark">
+                <img src="./img/tiktok-logo-card.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">TikTok</h5>
+                  <p class="card-text card-box__text">Идейные соображения высшего порядка</p>
+                  <div class="d-grid gap-2">
+                    <a class="btn btn-dark btn-lg" href="https://www.tiktok.com/@lplug9292" role="button" target="_blank">БУП</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+</section>
+<section class="project-cards-section" id="project">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <h1 class="card-link-section__top-title">Проекты</h1>
+        <div class="row">
+          <div class="col-md-12">
+            <p class="text mb-5 project-cards-section__text">Творения, в которых я принимал полное или косвенное участие</p>
+          </div>
+        </div>
+<!-- Карты -->
+          <div class="card-box row-cols-1 row-cols-md-2 g-4">
+            <div class="card mb-3 bg-secondary border-dark">
+              <div class="row g-0">
+                <div class="col-md-12">
+                  <div class="card-body">
+                    <img src="./img/Cover-250.png" class="card-img-top" alt="...">
+                    <h4 class="card-title mt-2">Авторские Стикосы для Telegram</h4>
+                    <p class="card-text card-box__text">Стикерпак созданный на грани абсурда и отсутсвия плана</p>
+                    <div class="d-grid gap-2">
+                      <button type="button" class="btn btn-dark btn-lg" data-bs-toggle="modal" data-bs-target="#exampleModal">Буп</button>
+                      <!-- Modal -->
+                      <div class="modal fade bg-dark" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-scrollable">
+                          <div class="modal-content bg-secondary">
+                            <div class="modal-header bg-secondary">
+                              <h5 class="modal-title" id="exampleModalLabel">Совместный стикерпак</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body bg-secondary">
+                              <div class="container-fluid">
+                                <div class="row">
+                                  <div class="col-md-12"><img src="./img/Cover-250.png" class="card-img-top" alt="...">
+                                  </div>
+                                </div>
+                                <div class="row">
+                                  <div class="col-md-12">Совместно с <a class="link-light" href="https://vk.com/soulter19" role="button" target="_blank">winsoulter19</a>
+                                создали стикерпак. Благодаря новой функции в IOS 16 - выделение предметов на картинках. Нейросеть обучили определять разные объекты, будь то люди, животные или здания. Их можно вырезать и перенести в другие приложения: например, в виде стикера в чат. Это и вдохновило нас создать данный стикерпак. Доля кринжи вам обеспечена
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="modal-footer bg-secondary">
+                              <button type="button" class="btn btn-danger rounded-pill" data-bs-dismiss="modal">Нет, спасибо!</button>
+                              <a class="btn btn-primary rounded-pill" href="https://t.me/addstickers/JmyhStckrs" role="button" target="_blank">Получить стикеры</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+</section>
+<footer class="footer-section">
+  <div class="container">
+    <div class="row">
+      <div class="footer-content col-12">
+        <p class="footer-content__text">© Temik</p>
+      </div>
+      <div class="row">
+        <div class="footer-content__subtext col-12 ms-2">
+          <p>Design By winsoulter19</p>
+            <a href="https://github.com/winsoulter19" class="ms-3">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white" class="bi bi-github" viewBox="0 0 16 16" href="#">
+              <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+            </svg>
+            </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
